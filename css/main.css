@@ -1,0 +1,112 @@
+.main,
+h1 {
+  text-align: center;
+}
+
+h1 {
+  padding-top: 80px;
+  color: #fff;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.bg {
+  background: url("../img/fon.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(255,255,255,.8);
+  overflow: hidden;
+}
+
+.box:hover .wrap {
+  transform: translateX(0%);
+  background-color: rgba(0,0,0,.4);
+  opacity: 1;
+}
+
+.theme1 {
+  background: url("../img/room.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.theme2 {
+  background: url("../img/kitchen.jpg") no-repeat center center;
+}
+
+.theme2,
+.theme3,
+.theme4 {
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.theme3 {
+  background: url("../img/divan.jpg") no-repeat center center;
+}
+
+.theme4 {
+  background: url("../img/bedroom.jpg") no-repeat center center;
+}
+
+.wrap {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  transform-origin: 0% 0%;
+  transform: translateY(-100%) rotate(40deg);
+}
+
+.sign {
+  text-align: center;
+  font-size: 18px;
+}
+
+.sign a {
+  display: block;
+  width: 200px;
+  border: 1px solid #fff;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.sign a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #333;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.sign a:hover:focus,
+.sign a:hover:link {
+  text-decoration: none;
+}
